@@ -12,9 +12,13 @@ a.Pandas: A powerful library for data manipulation and analysis. It is used here
 b.NumPy: A library for numerical computing in Python. It is often used in conjunction with Pandas for array operations and numerical calculations.
 
 c.Scikit-learn (sklearn): A widely used library for machine learning in Python. Several components from scikit-learn are used in your code:
+
 1.Isolation Forest: An anomaly detection algorithm used to identify outliers in the dataset.
+
 2.train_test_split: A function used to split the dataset into training and testing sets.
+
 3.StandardScaler: A method used to standardize features by removing the mean and scaling to unit variance.
+
 4.classification_report, accuracy_score, confusion_matrix: Functions used for evaluating the performance of the model.
 
 d.Machine Learning: The entire process of training and evaluating a model on a dataset is a fundamental concept in machine learning. Here, you are using the Isolation Forest algorithm to detect anomalies in a credit card transaction dataset.
